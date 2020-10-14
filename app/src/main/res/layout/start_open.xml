@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="#059CEA">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:fillViewport="true">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="З М І С Т"
+				android:gravity="center_horizontal"
+				android:layout_gravity="center_horizontal"
+				android:textColor="#FF0000"
+				android:textSize="40sp"
+				android:textAlignment="center"
+				android:textStyle="bold"/>
+
+			<Button
+				android:text="I. Загальні положення"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="20dp"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton1"/>
+
+			<Button
+				android:text="II. Правовий статус засуджених. Основні права та обов’язки засуджених  в установах виконання покарань"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton2"/>
+
+			<Button
+				android:text="III. Пропозиції, заяви та скарги засуджених. Особистий прийом засудженихButton"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:textColor="#ffffffff"
+				android:background="#ff555252"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton3"/>
+
+			<Button
+				android:text="IV. Взаємовідносини персоналу установ виконання покарань із засудженими та іншими особами"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton4"/>
+
+			<Button
+				android:text="V. Порядок прийняття засуджених та повідомлення про їх прибуття до установ виконання покарань"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton5"/>
+
+			<Button
+				android:text="VI. Розпорядок дня в установах виконання покарань"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton6"/>
+
+			<Button
+				android:text="VII. Проведення перевірок наявності засуджених"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton7"/>
+
+			<Button
+				android:text="VIII. Порядок пересування засуджених територією установ виконання покарань"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton8"/>
+
+			<Button
+				android:text="IX. Розвід засуджених на роботу та виконання внутрішньоцехового режиму на виробництві установи виконання покарань"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton9"/>
+
+			<Button
+				android:text="X. Порядок приймання засудженими їжі"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton10"/>
+
+			<Button
+				android:text="XI. Порядок придбання засудженими продуктів харчування і предметів першої потреби та надання їм додаткових послуг"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button11"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton11"/>
+
+			<Button
+				android:text="XII. Порядок одержання засудженими посилок (передач) і бандеролей"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button12"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton12"/>
+
+			<Button
+				android:text="XIII. Порядок листування та направлення грошових переказів засудженими"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button13"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton13"/>
+
+			<Button
+				android:text="XIV. Порядок надання засудженим побачень і телефонних розмов з родичами, адвокатами та іншими особам"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button14"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton14"/>
+
+			<Button
+				android:text="XV. Порядок проведення побачень"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button15"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton15"/>
+
+			<Button
+				android:text="XVI. Вихід засуджених за межі виховної колонії"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button16"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton16"/>
+
+			<Button
+				android:text="XVII. Залучення засуджених до суспільно корисної праці"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button17"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton17"/>
+
+			<Button
+				android:text="XVIII. Господарське обслуговування у виправних колоніях максимального рівня безпеки. Призначення днювальних в установах виконання покарань"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button18"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton18"/>
+
+			<Button
+				android:text="XIX. Спільна робота вільнонайманого персоналу із засудженими"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button19"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton19"/>
+
+			<Button
+				android:text="XX. Деякі питання організації соціально-виховної роботи із засудженими. Забезпечення релігійних потреб"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button20"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton20"/>
+
+			<Button
+				android:text="XXI. Заходи заохочення і стягнення, що застосовуються до засуджених, порядок їх застосування"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button21"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton21"/>
+
+			<Button
+				android:text="XXII. Матеріально-побутове забезпечення та медичне обслуговування засуджених"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button22"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton22"/>
+
+			<Button
+				android:text="XXIII. Нагляд за засудженими"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button23"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton23"/>
+
+			<Button
+				android:text="XXIV. Порядок проведення оглядів і обшуків"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button24"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton24"/>
+
+			<Button
+				android:text="XXV. Порядок вилучення предметів, виробів, речей та продуктів харчування, придбаних незаконним шляхом, а також заборонених для зберігання і використання"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button25"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton25"/>
+
+			<Button
+				android:text="XXVI. Підстави для застосування заходів фізичного впливу, спеціальних засобів і зброї"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button26"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton26"/>
+
+			<Button
+				android:text="XXVII. Особливості зміни умов тримання засуджених до позбавлення волі"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button27"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton27"/>
+
+			<Button
+				android:text="XXVIII. Особливості тримання засуджених в арештних домах"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button28"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton28"/>
+
+			<Button
+				android:text="XXIX. Особливості тримання засуджених у виправних центрах"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button29"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton29"/>
+
+			<Button
+				android:text="XXX. Особливості тримання засуджених у виправних колоніях мінімального рівня безпеки з полегшеними умовами тримання, дільницях соціальної реабілітації та дільницях соціальної адаптації"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button30"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton30"/>
+
+			<Button
+				android:text="XXXI. Особливості проживання засуджених жінок за межами виправної колонії"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button31"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton31"/>
+
+			<Button
+				android:text="XXXII. Особливості тримання засуджених у дільницях посиленого контролю"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button32"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton32"/>
+
+			<Button
+				android:text="XXXIII. Особливості тримання засуджених до довічного позбавлення волі"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button33"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton33"/>
+
+			<Button
+				android:text="XXXIV. Відвідування установ виконання покарань"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton34"/>
+
+			<Button
+				android:text="Додатки"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="dzmist"/>
+
+			<Button
+				android:text="ЗМІНИ від 23.09.2020 № 3306/5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton35"/>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

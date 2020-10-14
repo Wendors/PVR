@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1"
+		android:background="#ff1f87d2">
+
+		<ScrollView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/scrollView1">
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/linearLayout2">
+
+				<TextView
+					android:text="Д О Д А Т К И"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:textStyle="bold"
+					android:textColor="#FF0F00"
+					android:textSize="40sp"/>
+
+				<Button
+					android:text="I. НАКАЗ"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:textSize="20dp"
+					android:background="#ff555252"
+					android:textColor="#ffffffff"
+					android:layout_marginBottom="5.0dp"
+					android:layout_marginRight="5.0dp"
+					android:layout_marginLeft="5.0dp"
+					android:onClick="dbutton1"/>
+
+				<Button
+					android:text="II. Предмети, виробів і речовин, зберігання і використання яких засудженими заборонен"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:textSize="20dp"
+					android:background="#ff555252"
+					android:textColor="#ffffffff"
+					android:layout_marginBottom="5.0dp"
+					android:layout_marginRight="5.0dp"
+					android:layout_marginLeft="5.0dp"
+					android:onClick="dbutton2"/>
+
+				<Button
+					android:text="III. Продукти харчування, виробів і речовин, які засуджені можуть отримувати в посилках (передачах), купувати в крамницях установ виконання покарань та зберігати при собі"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="20dp"
+					android:gravity="center"
+					android:background="#ff555252"
+					android:textColor="#ffffffff"
+					android:layout_marginBottom="5.0dp"
+					android:layout_marginRight="5.0dp"
+					android:layout_marginLeft="5.0dp"
+					android:onClick="dbutton3"/>
+
+				<Button
+					android:text="IV. ТИПОВИЙ РОЗПОРЯДОК ДНЯ "
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="20dp"
+					android:gravity="center"
+					android:background="#ff555252"
+					android:textColor="#ffffffff"
+					android:layout_marginBottom="5.0dp"
+					android:layout_marginRight="5.0dp"
+					android:layout_marginLeft="5.0dp"
+					android:onClick="dbutton4"/>
+                <Button
+					android:text="V. Розписка"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="20dp"
+					android:gravity="center"
+					android:background="#ff555252"
+					android:textColor="#ffffffff"
+					android:layout_marginBottom="5.0dp"
+					android:layout_marginRight="5.0dp"
+					android:layout_marginLeft="5.0dp"
+					android:onClick="dbutton5"/>
+
+				<Button
+					android:text="VI. Типові обов’язки старшого днювального, днювального гуртожитку (камери)"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textSize="20dp"
+					android:gravity="center"
+					android:background="#ff555252"
+					android:textColor="#ffffffff"
+					android:layout_marginBottom="5.0dp"
+					android:layout_marginRight="5.0dp"
+					android:layout_marginLeft="5.0dp"
+					android:onClick="dbutton6"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+</LinearLayout>
+
