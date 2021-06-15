@@ -1,8 +1,11 @@
 package com.psv.pvr;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.solver.state.Dimension;
 
+import android.graphics.Point;
 import android.os.Bundle;
+import android.view.Display;
 import android.view.View;
 import android.widget.TextView;
 import java.io.BufferedReader;
@@ -168,8 +171,10 @@ public class MainActivity extends AppCompatActivity {
     {
         Texts("41");
     }
+
     public void Texts(String ins)
     {
+
         open = 1;
         setContentView(R.layout.text_fild);
         TextView textv = findViewById(R.id.text_teads);

@@ -54,17 +54,17 @@
 				android:onClick="sbutton2"/>
 
 			<Button
-				android:text="III. Пропозиції, заяви та скарги засуджених. Особистий прийом засудженихButton"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:textSize="20dp"
-				android:gravity="center"
-				android:textColor="#ffffffff"
-				android:background="#ff555252"
-				android:layout_marginBottom="5.0dp"
-				android:layout_marginRight="5.0dp"
 				android:layout_marginLeft="5.0dp"
-				android:onClick="sbutton3"/>
+				android:layout_marginRight="5.0dp"
+				android:layout_marginBottom="5.0dp"
+				android:background="#ff555252"
+				android:gravity="center"
+				android:onClick="sbutton3"
+				android:text="III. Пропозиції, заяви та скарги засуджених. Особистий прийом засуджених"
+				android:textColor="#ffffffff"
+				android:textSize="20dp" />
 
 			<Button
 				android:text="IV. Взаємовідносини персоналу установ виконання покарань із засудженими та іншими особами"

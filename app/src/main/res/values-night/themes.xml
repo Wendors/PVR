@@ -2,7 +2,6 @@
     <!-- Base application theme. -->
     <style name="Theme.PVR" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="android:windowBackground">@drawable/splash</item>
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryDark">@color/purple_300</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -11,9 +10,9 @@
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
         <item name="colorOnSecondary">@color/black</item>
-
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/splash</item>
     </style>
 </resources>

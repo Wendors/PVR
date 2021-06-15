@@ -36,16 +36,16 @@
 		android:layout_weight="1.0"/>
 
 	<Button
+		android:layout_width="413dp"
 		android:layout_height="wrap_content"
-		android:layout_width="match_parent"
-		android:text="ВІДКРИТИ"
-		android:gravity="center_horizontal"
 		android:layout_gravity="center_horizontal"
-		android:textStyle="bold"
-		android:textColor="#FF0000"
 		android:background="#FFFFFF"
-		android:textSize="50sp"
-		android:onClick="Starts"/>
+		android:gravity="center_horizontal"
+		android:onClick="Starts"
+		android:text="ВІДКРИТИ"
+		android:textColor="#FF0000"
+		android:textSize="45sp"
+		android:textStyle="bold" />
 
 	<TextView
 		android:layout_height="wrap_content"
