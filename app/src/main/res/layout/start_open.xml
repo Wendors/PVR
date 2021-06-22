@@ -506,7 +506,7 @@
 				android:onClick="dzmist"/>
 
 			<Button
-				android:text="ЗМІНИ від 23.09.2020 № 3306/5"
+				android:text="ЗМІНИ від 21.05.2021  № 1797/5"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:textSize="20dp"
