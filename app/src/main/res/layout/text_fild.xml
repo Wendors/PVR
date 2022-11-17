@@ -29,7 +29,7 @@
 				android:layout_marginBottom="5dp"
 				android:background="#FFFFFF"
 				android:textColor="#000000"
-				android:textSize="15sp" />
+				android:textSize="17sp" />
 
 		</ScrollView>
 	</androidx.constraintlayout.widget.ConstraintLayout>

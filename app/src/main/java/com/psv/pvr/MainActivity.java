@@ -163,13 +163,17 @@ public class MainActivity extends AppCompatActivity {
     {
         Texts("33");
     }
+    public void sbutton34_1(View v)
+    {
+        Texts("34_1");
+    }
+    public void sbutton34_2(View v)
+    {
+        Texts("34_2");
+    }
     public void sbutton34(View v)
     {
         Texts("34");
-    }
-    public void sbutton35(View v)
-    {
-        Texts("41");
     }
 
     public void Texts(String ins)
@@ -181,7 +185,7 @@ public class MainActivity extends AppCompatActivity {
         BufferedReader reader = null;
         try {
             reader = new BufferedReader(
-                    new InputStreamReader(getAssets().open(ins +".txt")));
+                    new InputStreamReader(getAssets().open(ins)));
             StringBuilder sf = new StringBuilder();
             String mLine= reader.readLine();
             while (mLine  != null) {

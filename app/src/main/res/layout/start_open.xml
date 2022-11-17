@@ -464,12 +464,10 @@
 				android:layout_marginRight="5.0dp"
 				android:layout_marginLeft="5.0dp"
 				android:onClick="sbutton32"/>
-
 			<Button
 				android:text="XXXIII. Особливості тримання засуджених до довічного позбавлення волі"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:id="@+id/button33"
 				android:textSize="20dp"
 				android:gravity="center"
 				android:background="#ff555252"
@@ -480,7 +478,33 @@
 				android:onClick="sbutton33"/>
 
 			<Button
-				android:text="XXXIV. Відвідування установ виконання покарань"
+				android:text="XXXIV. Особливості функціонування секторів для тримання осіб, узятих під варту"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton34_1"/>
+
+			<Button
+				android:text="XXXV. Особливості тримання та обліку військовополонених в дільницях для тримання військовополонених"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="20dp"
+				android:gravity="center"
+				android:background="#ff555252"
+				android:textColor="#ffffffff"
+				android:layout_marginBottom="5.0dp"
+				android:layout_marginRight="5.0dp"
+				android:layout_marginLeft="5.0dp"
+				android:onClick="sbutton34_2"/>
+
+			<Button
+				android:text="XXXVI. Відвідування установ виконання покарань"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:textSize="20dp"
@@ -504,19 +528,6 @@
 				android:layout_marginRight="5.0dp"
 				android:layout_marginLeft="5.0dp"
 				android:onClick="dzmist"/>
-
-			<Button
-				android:text="ЗМІНИ від 21.05.2021  № 1797/5"
-				android:layout_width="match_parent"
-				android:layout_height="wrap_content"
-				android:textSize="20dp"
-				android:gravity="center"
-				android:background="#ff555252"
-				android:textColor="#ffffffff"
-				android:layout_marginBottom="5.0dp"
-				android:layout_marginRight="5.0dp"
-				android:layout_marginLeft="5.0dp"
-				android:onClick="sbutton35"/>
 
 		</LinearLayout>
 
